@@ -8,4 +8,8 @@ class Validator {
   static String? validatePassword(String Value) {
     return Value.length < 6 ? "Password at least 6 Characters" : null;
   }
+
+  static String? validateUsername(String Value) {
+    return Value.length < 3 ? "Username at least 3 Characters" : null;
+  }
 }

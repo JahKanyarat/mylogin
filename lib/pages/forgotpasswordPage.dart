@@ -48,7 +48,7 @@ class _ForgotpasswordpageState extends State<Forgotpasswordpage> {
           child: Center(
             child: Column(
               children: [
-                const SizedBox(height: 20,),
+                const SizedBox(height: 100,),
                 const Text("Forgot Your password",
                 style: TextStyle(fontSize: 25,fontWeight: FontWeight.bold),),
                 const SizedBox(height: 20,),
@@ -74,7 +74,7 @@ class _ForgotpasswordpageState extends State<Forgotpasswordpage> {
                       const SizedBox(
                       height: 40,
                     ),
-                    CustomButton(onTap: ForgotPassword, txt: 'Continus')
+                    CustomButton1(onTap: ForgotPassword, txt: 'Continus')
                   ]
           
                 ))
